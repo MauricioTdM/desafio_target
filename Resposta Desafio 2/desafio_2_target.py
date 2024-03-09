@@ -1,4 +1,4 @@
-USER_INPUT = 56
+USER_INPUT = 55
 
 def verify_number_in_fibonacci(user_number):
     fibonacci_sequence = [0, 1]
