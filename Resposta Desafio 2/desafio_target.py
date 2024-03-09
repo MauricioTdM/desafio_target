@@ -1,24 +1,18 @@
-DATA_INPUT = 2550
+USER_INPUT = 56
 
-lista = [0, 1]
-soma = 0
-i = 0
-# i = 0
-# soma = lista[0 + i] + lista[1 + i]
-# lista.append(soma)
-# print(lista)
-# i = 1
-# soma = lista[0 + i] + lista[1 + i]
-# lista.append(soma)
-# print(lista)
-# i = 2
-# soma = lista[0 + i] + lista[1 + i]
-# lista.append(soma)
-# print(lista)
+def verify_number_in_fibonacci(user_number):
+    fibonacci_sequence = [0, 1]
+    sum_numbers = 0
+    i = 0
 
-while ENTRADA > soma:
-    soma = lista[0 + i] + lista[1 + i]
-    lista.append(soma)
-    i += 1
+    while user_number > sum_numbers:
+        sum_numbers = fibonacci_sequence[0 + i] + fibonacci_sequence[1 + i]
+        fibonacci_sequence.append(sum_numbers)
+        i += 1
+    
+    if (user_number in fibonacci_sequence) == True:
+        print(f'O número: {user_number}, pertence a sequência de Fibonacci: {fibonacci_sequence}')
+    else:
+        print(f'O número: {user_number}, não pertence a sequência de Fibonacci: {fibonacci_sequence}')
 
-print(ENTRADA in lista)
+verify_number_in_fibonacci(USER_INPUT)
