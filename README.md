@@ -17,3 +17,4 @@ Inicialmente, rode o programa e será mostrado no console "Digite uma palavra ou
 ## Autor
 
 - Maurício Tavares de Melo
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-FFF?style=for-the-badge&logo=linkedin&logoColor=0E76A8)](https://www.linkedin.com/in/mauricio-tavares-de-melo-076489230/)
